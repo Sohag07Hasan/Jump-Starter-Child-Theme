@@ -1,0 +1,41 @@
+/*
+Theme name: Jump Starter Child
+template: jumpstart-theme
+*/
+
+@import url("../jumpstart-theme/style.css");
+
+/* Below you can write your style */
+
+/* content/custom */
+.outer_table{
+    min-width: 100%;
+    /*border: 1px solid black; */
+}
+
+.outer_table td{
+    padding: 2px 10px 2px 10px;
+    border-right: 1px solid black;
+}
+
+.outer_table tr{
+    border: 1px solid black;
+}
+
+.inner_table,  .inner_table tr, .inner_table td{
+    border: none;
+}
+
+#project_category{
+	max-height: 150px;
+	max-width: 150px;
+	overflow: auto;
+}
+
+
+li.attachment-pdf{
+	background: url('images/icons_doc_formats.jpg') no-repeat;
+	height: 32px;
+	padding: 12px 0px 0px 55px;
+	
+}
